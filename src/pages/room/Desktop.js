@@ -98,7 +98,7 @@ export default function Desktop(props) {
                   className={classes.whatsApp}
                   startIcon={<WhatsApp />}
                   onClick={() => {
-                    let URL = `whatsapp://send?text=Let's connect over Azuuk Chat. URL: http://${window.location.hostname}/j/${props.code}`;
+                    let URL = `whatsapp://send?text=Let's connect over Azuuk Chat. URL: https://${window.location.hostname}/j/${props.code}`;
                     window.location.replace(URL);
                   }}
                 >
